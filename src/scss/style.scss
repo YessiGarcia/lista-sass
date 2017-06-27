@@ -5,6 +5,9 @@ $padding:5px;
 $negro:#000;
 $ancho:100px;
 $margin:10px;
+$break-peque: 320px;
+$break-medio: 680px;
+$break-grande: 1200px;
 
 .titulo{
 	height:$altura;
@@ -69,7 +72,7 @@ footer{
 
 .col-3 {
   /* (3/12)*100 */
-  width: 25%;
+  width: 24%;
 }
 
 .col-4 {
@@ -101,4 +104,8 @@ footer{
   /* (12/12)*100 */
   width: 100%;
 }
+
+
+
+
 
