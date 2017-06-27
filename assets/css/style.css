@@ -1,25 +1,3 @@
-.titulo {
-  height: 60px; }
-
-.amarillo {
-  background: #FCB425; }
-
-.letra-blanca {
-  color: #fff; }
-
-.titulo h1 {
-  padding: 5px; }
-
-.subtitulos {
-  list-style: none;
-  margin-top: 10px; }
-
-.negro {
-  background: #000; }
-
-footer {
-  margin-top: 20px; }
-
 /*GLOBAL*/
 * {
   box-sizing: border-box;
@@ -90,6 +68,30 @@ footer {
     width: 100%; } }
 @media (max-width: 420px) {
   .lista-subtitulos, .lista, .aside {
-    width: 100%; } }
+    width: 100%; }
+
+  #asistentes {
+    margin-left: 20px; } }
+.titulo {
+  height: 60px; }
+
+.amarillo {
+  background: #FCB425; }
+
+.letra-blanca {
+  color: #fff; }
+
+.titulo h1 {
+  padding: 5px; }
+
+.subtitulos {
+  list-style: none;
+  margin-top: 10px; }
+
+.negro {
+  background: #000; }
+
+footer {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
