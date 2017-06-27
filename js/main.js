@@ -26,12 +26,10 @@ var mostrarAlumnas = function(alumna) {
     $('#asistentes').append(plantillaFinal);
 };
 
-
 var plantilla=
   "<li>" +
    "<input type='checkbox'>" + 
    "__nombre__ " +
    "</li>";
-
 
 $(document).ready(cargarPagina);

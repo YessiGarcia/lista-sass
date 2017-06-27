@@ -105,7 +105,23 @@ footer{
   width: 100%;
 }
 
+@media(max-width: 680px){
+  .lista-subtitulos{
+    width: 25%;
+  }
+  .lista{
+    width: 75%;
+  }
+  .aside{
+    width: 100%;
+  }
+}
 
+@media (max-width: 420px){
+  .lista-subtitulos, .lista, .aside{
+    width: 100%;
+  }
+}
 
 
 
